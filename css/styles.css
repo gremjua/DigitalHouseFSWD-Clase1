@@ -1,11 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700|Work+Sans&display=swap');
 
 body {
-    background-image: url(../img/emilia-home.jpg);
-    background-position: right -20%;
+    background-position: right 80%;
     background-repeat: no-repeat;
     background-size: 75%;
     height: 80%;
+    position: relative;
+}
+
+body.home {
+    background-image: url(../img/emilia-home.jpg);
+}
+
+body.about {
+    background-image: url(../img/emilia-about.jpg);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1.home {
+    position: absolute;
+    width: 100%;
+    margin-top: 36%;
+    font-size: 457%;
+    background-color: rgba(255,255,255,0.30);
+}
+
+h1.about {
+    height: 25%;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 2%; 
+    font-size: 400%;
+    font-weight: bold;
+    text-align: left;
+    line-height: 120%;
+}
+
+h2.home {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 2%; 
+    font-size: 250%;
+    font-weight: normal;
+    text-emphasis: none;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 5px;
+    line-height: 100%;
+}
+
+ul.home li a {
+    color: rgba(128, 128, 128, 0.795);
+    text-decoration: none;
+    font-family: 'Opem Sans', sans-serif;
+    line-height: 200%;
+    font-size: 60%;
+}
+a i {
+    color: #d34836;
 }
 
 /*font-family: 'Raleway', sans-serif;
